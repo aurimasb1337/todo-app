@@ -5,6 +5,9 @@ A simple Todo application built with React, Redux Toolkit, and React Router. Thi
 # Demo
 [https://todo-app-five-rosy-82.vercel.app/](https://todo-app-five-rosy-82.vercel.app/)
 
+# Note!
+Summary page can only be accessed by manually typing `/summary` in the URL.
+
 ## Features
 
 - User authentication with the ability to select a user from a list
