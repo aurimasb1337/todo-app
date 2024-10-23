@@ -9,7 +9,7 @@ export const api = createApi({
       query: () => 'users',
     }),
     getTodos: builder.query({
-      query: (userId) => `todos?userId=${userId}`,
+      query: (userId) => userId ? `todos?userId=${userId}` : 'todos',
     }),
     addTodo: builder.mutation({
       query: (newTodo) => ({
